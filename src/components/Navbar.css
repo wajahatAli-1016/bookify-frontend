@@ -13,7 +13,8 @@
         width: 30px;
  }
  .search{
-        width: 90px;
+    display: none;
+
  }
 }
 
