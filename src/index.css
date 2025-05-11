@@ -66,5 +66,13 @@
     margin-top: 5px;
     width: 120px;
   }
+    .side{
+    display: none;
+  }
+  .dash{
+    width: 310px;
+     overflow: hidden;   
+  text-overflow: ellipsis;
+  }
  
 }
