@@ -14,19 +14,19 @@ const BookCard = ({ book }) => {
     return (
         <div>
             <div style={{display:'flex', objectFit:'cover'}} className='card'>
-                <div style={{height:'100px'}}>
+                <div >
                 <Link to={`/books/${book._id}`}  >
                         <img
                             src={`${getImgUrl(book.coverImage)}`}
                             alt=""
                             style={{paddingTop:'20px'}}
-                            className="w-full bg-cover p-2 rounded-md  cursor-pointer hover:scale-105 transition-all duration-200"
+                            className="w-full bg-cover p-2 rounded-md  book-img cursor-pointer hover:scale-105 transition-all duration-200"
                            
                         />
                     </Link>
                 </div>
 
-                <div style={{margin:'5px'}}>
+                <div >
                     <Link to={`/books/${book._id}`}><h4 className="text-xl hover:text-blue-600 mb-3 card-title">
                             {book?.title.length > 20 ? `${book.title.slice(0, 20)}...` : book?.title}
                         </h4></Link>
@@ -34,9 +34,9 @@ const BookCard = ({ book }) => {
                     <p className="font-medium mb-5">
                         ${book?.newPrice} <span className="line-through font-normal ml-2">${book?.oldPrice}</span>
                     </p>
-                    <button onClick={(()=> handleAddToCart(book))} className="btn" style={{backgroundColor:'rgb(52, 202, 195)',display:'flex',padding:'7px',borderRadius:'10px'}}>
-                        <FiShoppingCart />
-                        <span>Add to Cart</span>
+                    <button onClick={(()=> handleAddToCart(book))} className="btn" style={{backgroundColor:'rgb(52, 202, 195)',display:'flex',borderRadius:'10px'}}>
+                        <FiShoppingCart style={{marginTop:'5px'}}/>
+                        <span style={{marginLeft:"5px"}}>Add to Cart</span>
                     </button>
                 </div>
             </div>
