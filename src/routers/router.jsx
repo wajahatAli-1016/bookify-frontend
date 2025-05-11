@@ -3,7 +3,7 @@ import App from "../App";
 import Home from "../pages/home/Home";
 import Login from "../components/Login";
 import Register from "../components/Register";
-import CartPage from "../pages/home/books/cartPage";
+import CartPage from "../pages/home/books/CartPage";
 import CheckoutPage from "../pages/home/books/CheckoutPage";
 import SingleBook from "../pages/home/books/singleBook";
 import PrivateRoute from "./PrivateRoute";
