@@ -15,7 +15,7 @@ const DashboardLayout = () => {
   }
     
   return ( <section className="flex md:bg-gray-100 min-h-screen overflow-hidden">
-    <aside className="sm:flex sm:flex-col">
+    <aside className="side sm:flex sm:flex-col">
       <a href="/" className="inline-flex items-center justify-center h-20 w-20 bg-gray-800 hover:bg-gray-700 focus:bg-purple-500">
         <img src="/fav-icon.png" alt="" />
       </a>
