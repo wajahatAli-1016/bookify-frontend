@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root{
+    background: linear-gradient(to top, rgb(144, 196, 231),rgb(255, 255, 255),rgb(174, 214, 240)); 
+    /* color: white; */
+    
+}
+.btn{
+    /* background: linear-gradient(to bottom, rgb(60, 9, 102),rgb(34, 3, 51), rgb(9, 1, 31)); */
+    /* background: linear-gradient(to bottom, rgb(240, 83, 44), rgb(190, 94, 38),rgb(197, 37, 9)); */
+    background: linear-gradient(to right, #3949d6);
+    color:  white;
+   
+}
+
+/* .btn:hover{
+    background: white ;
+    border: 1px solid #3949d6 ;
+    color: #3949d6;
+} */
+
+.card{
+  width: 400px;  /* or fixed width like 200px */
+  height: 250px; /* or fixed height like 300px */
+  margin-top: 13px;
+  margin-left: 5px;
+  object-fit: cover; /* ensures consistent aspect ratio */
+  max-width: 100%; /* prevents overflow */
+   box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2); /* horizontal, vertical, blur, spread, color */
+  transition: 0.3s; /* smooth hover effect */
+  border-radius: 15px; /* optional - matches shadow to rounded corners */
+}
+.book-img{
+    width:'100%';
+    height:'100px'
+}
+.card-title {
+    height: 2em; /* Enough for 2 lines typically */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.title-logo{
+    width: 100px;
+    height: 100px;
+}

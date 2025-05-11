@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .news {
+     flex-direction: row;
+     justify-content: space-between;
+    }
+  }

@@ -1,0 +1,9 @@
+.navbar{
+    
+        position: sticky;
+        top: 0;
+        background-color: white; /* or any background */
+        z-index: 1000; /* so it stays above other content */
+        background: transparent;
+      
+}
