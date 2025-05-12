@@ -42,7 +42,7 @@ const ManageBooks = () => {
                 </div>
             </div>
 
-            <div className="block w-full overflow-x-auto">
+            <div className="manage block w-full overflow-x-auto">
                 <table className="items-center bg-transparent w-full border-collapse ">
                     <thead>
                         <tr>
