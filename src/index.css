@@ -74,5 +74,8 @@
      overflow: hidden;   
   text-overflow: ellipsis;
   }
+  .manage{
+      width: 250px;
+  }
  
 }
